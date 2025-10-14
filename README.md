@@ -11,7 +11,7 @@ ST-AugGCN is an advanced deep learning framework designed for accurate traffic f
 - **Cross-Modal Interactions**: Contrastive learning for robust feature representation
 
 ## 🎯 Custom Events and Graph Structures
-### Replace Graph Structure
+### Replacing Graph Structure
 (1) Initialize constructor
   ```bash
   constructor = MotifGraphConstructor(
@@ -25,13 +25,16 @@ ST-AugGCN is an advanced deep learning framework designed for accurate traffic f
       dtw_threshold=config['dtw_threshold'])
   ```
 (2) Construct motif graph
-   motif_graph = constructor.construct_motif_graph()
+
+    motif_graph = constructor.construct_motif_graph()
    
 (3) Analyze motif distribution
-   motif_distribution = constructor.analyze_motifs()
+
+    motif_distribution = constructor.analyze_motifs()
    
 (4) Save motifs
-  constructor.save_graph(
+
+    constructor.save_graph(
       graph_path=config['output_graph_path'],
       adj_matrix_path=config['output_adj_path'])
 
