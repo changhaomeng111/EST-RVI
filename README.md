@@ -3,7 +3,7 @@
 
  ## 📖 Overview
  
-ST-AugGCN is an advanced deep learning framework designed for accurate traffic flow prediction by capturing:
+ST-AugGCN is an advanced deep learning framework designed for accurate traffic risk prediction by capturing:
 
 - **Spatial Dependencies**: Multi-scale graph convolutional networks to model road network topology
 - **Temporal Dynamics**: Gated recurrent units with attention mechanisms for temporal patterns
