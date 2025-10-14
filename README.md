@@ -39,7 +39,7 @@ ST-AugGCN is an advanced deep learning framework designed for accurate traffic f
       adj_matrix_path=config['output_adj_path'])
 
 ### Adding New Event Types
-Define new event types in data processor
+Define new event types in data processor:
 
 new_events = ['accident', 'construction', 'special_event']
 
